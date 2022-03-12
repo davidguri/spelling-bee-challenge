@@ -14,4 +14,10 @@ with open("words_dictionary.json", "r") as read_file:
     words = json.load(read_file)
     print("json load successful")
     
+word_dict = words
 
+def by_length(words):
+    return [word for word in words if len(word) >= 4]
+
+allowed_words = by_length(word_dict)
+print(allowed_words)
