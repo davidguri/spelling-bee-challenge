@@ -9,3 +9,9 @@ import json
 # take user input
 # if user input lower than 4, contains other letters or doesn't contain main letter, it's wrong, else OK.
 # make a cli
+
+with open("words_dictionary.json", "r") as read_file:
+    words = json.load(read_file)
+    print("json load successful")
+    
+
