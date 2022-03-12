@@ -9,17 +9,17 @@ import random
 # if user input lower than 4, contains other letters or doesn't contain main letter, it's wrong, else OK.
 # make a cli
 
-# txt_file = "words.txt"
-# word_py_dict = {}
+#txt_file = "words.txt"
+#word_py_dict = {}
 
-# with open(txt_file) as fh:
-#     for line in fh:
-#         command, description = line.strip().split(None, 1)
-#         word_py_dict[command] = description.strip()
+#with open(txt_file) as fh:
+#    for line in fh:
+#        command, description = line.strip().split(None, 1)
+#        word_py_dict[command] = description.strip()
         
-# output_file = open("words_dictionary.json", "w")
-# json.dump(word_py_dict, output_file, indent = 4, sort_keys = False)
-# output_file.close()
+#output_file = open("words_dictionary.json", "w")
+#json.dump(word_py_dict, output_file, indent = 4, sort_keys = False)
+#output_file.close()
 # the code above was made to convert the words.txt file to json
 
 with open("words.txt", "r") as read_file:
